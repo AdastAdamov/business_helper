@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Business Helper</title>
+
+        <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.5.3/css/bootstrap.min.css} "/>
+    </head>
+
+    <body>
+
+        <main role="main" class="d-flex flex-fill vh-100 justify-content-center">
+            <div class="d-flex justify-content-center align-items-center">
+                <h2>У вас нет сохранённых карт</h2>
+            </div>
+            <button class="fixed-bottom btn-block btn btn-info" onclick="addCardFunc()">Добавить новую банковскую карту</button>
+        </main>
+
+        <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+        <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+        <script th:src="@{/js/main_page_cards.js}"></script>
+
+    </body>
+</html>
