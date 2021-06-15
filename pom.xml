@@ -12,6 +12,7 @@
 	</parent>
 
 
+
 	<groupId>com.adast_adamov</groupId>
 	<artifactId>business_helper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
